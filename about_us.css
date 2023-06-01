@@ -1,0 +1,125 @@
+/* body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(223, 18, 148, 0.318),rgba(34, 20, 100, 0.1)), url('back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.xyz {
+    display: inline-block;
+    background: #03a9f4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: #f9fd00;
+    color: black;
+}
+nav .menu{
+    left: 70%;
+    width: 50%;
+    top: 80%;
+    font-size: 32px;
+    color: white;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+}
+nav .menu .xyz{
+    width: 10%;
+    padding: 3px 6px;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+
+ 
+}
+nav .menu .xyz:hover{
+    display: inline;
+    width: 10%;
+    padding: auto;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+}
+.navigation{
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    background-color: black;
+  }
+  .navbar{
+    padding-top: 30px;
+    margin-top: 0px;
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .navbar .xyz:hover{
+    background-color: rgb(219, 168, 16);
+  }
+  nav{
+    width:100%;
+    height: 9vh;
+    background: rgba(0,0,0,0.);
+    border-bottom: 1px solid #f9fd00;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+   margin-left: 2.5%;
+ 
+  }
+#unknown{
+    background-color: rgb(219, 168, 16);
+  }
+.row{
+    display:flex;
+
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    font-size: 20px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  
+  .button {
+  border: none;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 8px;
+}
+  .button:hover {
+  background-color: #555;
+}
