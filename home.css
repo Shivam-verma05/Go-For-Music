@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(223, 18, 148, 0.318),rgba(34, 20, 100, 0.1)), url('hd-wallpaper-3567767.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .unknown{
+    background-color: rgb(219, 168, 16);
+  }
+  .navigation{
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    background-color: black;
+  }
+  .navbar{
+    padding-top: 30px;
+    margin-top: 0px;
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .navbar a:hover{
+    background-color: rgb(219, 168, 16);
+  }
+ 
+.navbar.search_box{
+    padding: 14px 20px;
+}
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+nav{
+    width:100%;
+    height: 9vh;
+    background: rgba(0,0,0,0.);
+    border-bottom: 1px solid #f9fd00;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+   margin-left: 2.5%;
+ 
+  }
+  
+  body {
+    background: black;
+    font-family: sans-serif;
+  }
+  
+  .login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .login-box form {
+    display: flex;
+    color: white;
+}
+nav .menu{
+    left: 70%;
+    width: 50%;
+    top: 80%;
+    font-size: 32px;
+    color: white;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+}
+nav .menu a{
+    width: 10%;
+    padding: 3px 6px;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+
+ 
+}
+nav .menu a:hover{
+    display: inline;
+    width: 10%;
+    padding: auto;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+}
+main{
+    width:100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px yellow;
+}
+section h1{
+    margin:30px 0 20px 0;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px red;
+    text-transform: uppercase;
+}
+section a.btone{
+    padding: 12px 30px;
+    border-radius: 4px;
+  }
+  
+  .user-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .user-box input:focus ~ label,
+  .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+  }
+  
+  a {
+    display: inline-block;
+    background: #03a9f4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: #f9fd00;
+    color: black;
+}
+.change_content:after{
+    content: "";
+    animation: changetext 10s infinite linear;
+    background: #00b894;
+    text-shadow: 2px 1px 5px black;
+}
+@keyframes changetext {
+    0%{content:"soul to the universe";}
+    20%{content:"wings to the mind";}
+    35%{content:"flight to the imagination";}
+    60%{content:"peace to self";}
+    80%{content:"energy to body";}
+    100%{content:"life to everything";} 
+}.navbar{
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+  a:hover {
+    background: #fff;
+    color: blue;
+  }
+  
+  a span {
+    position: absolute;
+    display: block;
+  }
+  
+  a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03a9f4);
+    animation: animate1 1s linear infinite;
+  }
+  
+  @keyframes animate1 {
+    0% {
+      left: -100%;
+    }
+    50%,
+    100% {
+      left: 100%;
+    }
+  }
+  
+  a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03a9f4);
+  }
+  .footer{
+    background: black;
+  }
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .profile_card{
+    background-color: #f2f2f2;
+    width:800px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .class_header{
+   background: black;
+    padding: 60px 40px;
+  }
+  .pic{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff,#e66767);
+    margin: auto;
+    background-size: 600% 300%;
+    border-radius: 70%;
+    animation: animated-gradient 2s linear infinite;
+  }
+  @keyframes animated-gradient{
+    25%{
+        background-position: left bottom;
+    }
+    50%{
+        background-position: right bottom;
+    }
+    75%{
+        background-position: right top;
+    }
+    100%{
+        background-position: left top;
+    }
+  }
+  .pic img{
+    display: block;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+  }
+  .name{
+     color: #f2f2f2;
+     text-shadow: #ef0d0d;
+     font-size: 35px;
+     font-weight: 800;
+     margin: 10px 0;
+  }
+  .desc{
+    font-size: 20px;
+    font-style: italic;
+    color: whitesmoke;
+
+  }
+  .playlist{
+    margin: auto;
+    font-size: 20px;
+    background-color: rgb(225, 241, 6);
+    color: black;
+    font-weight: 900;
+    padding: 10px 10px;
+    border-radius: 4px;
+  }
+  .playlist:hover{
+    margin: auto;
+    font-size: 20px;
+    background-color: rgb(170, 241, 6);
+    color: rgb(54, 10, 229);
+    font-weight: 800;
+    padding: 10px 10px;
+    border-radius: 4px;
+  }
+  /* .info{
+    background: rgb(16, 32, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutus{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .members{
+    font-size: 20px;
+  } */
