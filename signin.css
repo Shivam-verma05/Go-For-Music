@@ -259,7 +259,7 @@ nav .menu .xyz:hover{
     color: #ff4c68;
     position: absolute;
     bottom: 23%;
-    left: 55%;
+    left: 60%;
   }
   #c_password {
     position: absolute;
@@ -268,7 +268,7 @@ nav .menu .xyz:hover{
   #c_pass {
     position: absolute;
     top: 54%;
-    left: 38%;
+    left: 28%;
   }
   input:focus,input:hover{
     outline: 1px solid #ff4c68;
