@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music website page 2</title>
+    <!-- <link rel="stylesheet" href="style19.css"> -->
+ <style>
+      body{
+        background-color: rgb(167, 233, 233);
+}
+.xyz {
+    display: inline-block;
+    background: #03a9f4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: #f9fd00;
+    color: black;
+}
+nav .menu{
+    left: 70%;
+    width: 50%;
+    top: 80%;
+    font-size: 32px;
+    color: white;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+}
+nav .menu .xyz{
+    width: 10%;
+    padding: 3px 6px;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+
+ 
+}
+nav .menu .xyz:hover{
+    display: inline;
+    width: 10%;
+    padding: auto;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+}
+.navigation{
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    background-color: black;
+  }
+  .navbar{
+    padding-top: 30px;
+    margin-top: 0px;
+    float: left;
+    font-size: 27px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .navbar .xyz:hover{
+    background-color: rgb(219, 168, 16);
+    color: blue;
+  }
+  nav{
+    width:100%;
+    height: 9vh;
+    background: rgba(0,0,0,0.);
+    border-bottom: 1px solid #f9fd00;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+   margin-left: 2.5%;
+ 
+  }
+#unknown{
+    background-color: rgb(219, 168, 16);
+  }
+*{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+}
+body{
+     width: 100%;
+     height: 100%;
+     background-image:url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+     background-size: cover;
+   
+     background-repeat: no-repeat;
+ background-position-x: 40%;
+     background-position-y: 20%;
+     background-size: 120%;
+} 
+img{
+
+    
+    border-radius: 40%;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col{
+      margin-left: 3%;
+}
+.left-col h1{
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+}
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display:flex;
+    align-items: center;
+}
+.right-col p{
+      font-size: 18px;
+      color: #5f5f5f;
+      font-weight: 400;
+      margin-right: 15px;
+}
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+ </style>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="logo"><h1>Go For Music</h1></div>
+        <div class="navbar">
+            
+            <a href="home.html" class="xyz">Home</a>
+            <a href="#" id="unknown"class="xyz" >Try</a>
+            <a href="signin.html" class="xyz">Sign In</a>
+            <a href="about_us.html"  class="xyz">About Us</a>
+  
+        </div>
+    </nav>
+  <div id="con">
+    <div class="navbar">
+   
+<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcrxUlBv2fxTSlkD88aelZADeBbeRwWSzMpg&usqp=CAU" alt="" width="75px" height="75px" ></a>
+
+</div>
+
+<div class="content">
+    <div class="left-col">
+   <h1>The<br>Real<br>Sound</h1> 
+</div>
+<div class="right-col">
+    <p>Click here to listen</p>
+    <img id="icon" src="https://static.vecteezy.com/system/resources/previews/011/118/025/non_2x/jungle-play-or-start-button-with-stone-and-leaves-decorations-in-funny-cartoon-style-isolated-on-white-background-game-menu-interface-design-ui-asset-illustration-vector.jpg" width="50px" height="50px">
+</div>
+  </div>
+</div>
+<audio id="mySong">
+    <source src="Raghupathi_Ragh.mp3" type="audio/mp3">
+</audio>
+<script>
+    var mySong=document.getElementById("mySong");
+    var icon=document.getElementById("icon");
+
+    icon.onclick =function(){
+       if(mySong.paused){
+        mySong.play();
+        icon.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR_vh5rwamr4oql4VbYBmJvVJC-0cHxUh7tI7vWAkY49qcdiP-4aXphJvGT9yoRrEu3OM&usqp=CAU";
+       }
+       else{
+        mySong.pause();
+        icon.src="https://static.vecteezy.com/system/resources/previews/011/118/025/non_2x/jungle-play-or-start-button-with-stone-and-leaves-decorations-in-funny-cartoon-style-isolated-on-white-background-game-menu-interface-design-ui-asset-illustration-vector.jpg" ;
+       }
+    }
+
+</script>
+</body>
+</html>

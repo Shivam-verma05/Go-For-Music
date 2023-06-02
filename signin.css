@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    height: 100vh;
+    display: flex;
+    background-image: url("a.jpg");
+    background-size: cover;
+  }
+  .xyz {
+    display: inline-block;
+    background: #03a9f4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: #f9fd00;
+    color: black;
+}
+nav .menu{
+    left: 70%;
+    width: 50%;
+    top: 80%;
+    font-size: 32px;
+    color: white;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+}
+nav .menu .xyz{
+    width: 10%;
+    padding: 3px 6px;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+
+ 
+}
+nav .menu .xyz:hover{
+    display: inline;
+    width: 10%;
+    padding: auto;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+}
+.navigation{
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    background-color: black;
+  }
+  .navbar{
+    padding-top: 30px;
+    margin-top: 0px;
+    float: left;
+    font-size: 27px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .navbar .xyz:hover{
+    background-color: rgb(219, 168, 16);
+    color: blue;
+  }
+  nav{
+    width:100%;
+    height: 9vh;
+    background: rgba(0,0,0,0.);
+    border-bottom: 1px solid #f9fd00;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+   margin-left: 2.5%;
+ 
+  }
+#unknown{
+    background-color: rgb(219, 168, 16);
+  }
+.row{
+    display:flex;
+
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    font-size: 20px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  
+  .button {
+  border: none;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 8px;
+}
+  .button:hover {
+  background-color: #555;
+}
+  .content-box {
+    width: 50%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    position: absolute;
+    font-size: 40px;
+    top: 8%;
+    left: 28%;
+  }
+  #user {
+    position: absolute;
+    top: 21%;
+    left: 28%;
+  }
+  #emailid {
+    position: absolute;
+    top: 32%;
+    left: 28%;
+  }
+  #pass {
+    position: absolute;
+    top: 43%;
+    left: 28%;
+  }
+  input {
+    position: absolute;
+    border-radius: 99em;
+    left: 28%;
+    padding: 10px 100px 10px 10px;
+    border: none;
+  }
+  #name {
+    top: 25%;
+  }
+  #email {
+    top: 36%;
+  }
+  #password {
+    top: 47%;
+  }
+  button {
+    width: 32%;
+    padding: 10px 10px;
+    position: absolute;
+    border-radius: 99em;
+    left: 30%;
+    bottom: 29%;
+    border: none;
+    outline: none;
+  }
+  button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #ff4c68;
+    opacity: 95%;
+  }
+  hr {
+    width: 50%;
+    position: absolute;
+    bottom: 19%;
+    left: 23%;
+  }
+  .options {
+    position: absolute;
+    bottom: 13%;
+    left: 35%;
+  }
+  .login-options > a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  a:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.3);
+  }
+  
+  .btn-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .btn-icon img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .google-btn {
+    position: absolute;
+    bottom: 7%;
+    left: 35%;
+  }
+  .facebook-btn {
+    position: absolute;
+    bottom: 7%;
+    left: 42%;
+  }
+  .twitter-btn {
+    position: absolute;
+    bottom: 7%;
+    left: 49%;
+  }
+  input:focus {
+    outline: none;
+  }
+  .content-box > p {
+    position: absolute;
+    bottom: 23%;
+    left: 35%;
+  }
+  .content-box > a {
+    border: none;
+    color: #ff4c68;
+    position: absolute;
+    bottom: 23%;
+    left: 55%;
+  }
+  #c_password {
+    position: absolute;
+    top: 58%;
+  }
+  #c_pass {
+    position: absolute;
+    top: 54%;
+    left: 38%;
+  }
+  input:focus,input:hover{
+    outline: 1px solid #ff4c68;
+  }
+  
