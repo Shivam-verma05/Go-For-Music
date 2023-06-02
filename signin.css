@@ -273,4 +273,6 @@ nav .menu .xyz:hover{
   input:focus,input:hover{
     outline: 1px solid #ff4c68;
   }
-  
+  .logo{
+    margin: 50px 50px;
+  }
